@@ -12,7 +12,8 @@ Singleton is a creational pattern restricting instatiation of another class to p
 
 
 # UML Diagram
-![SS_UML_SINGLETON_PATTERN_CHUA](https://github.com/VinceTedChua/singletonPattern/assets/142372312/49f71525-5ebb-40d5-a239-1d640de1266b)
+![SS_UML_SINGLETON_PATTERN_CHUA](https://github.com/VinceTedChua/singletonPattern/assets/142372312/27ce3982-6f5c-480e-ac16-c8d08aac3f05)
+
 
 
 # Sample Java Code Solution
