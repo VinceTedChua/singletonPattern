@@ -17,12 +17,12 @@ public class Application {
         return instance;
     }
     //Checks if the user is Logged In and then it is notified
-    public synchronized boolean isUserLoggedIn() {
+    public boolean isUserLoggedIn() {
         return isUserLoggedIn;
     }
 
     // Log in a user
-    public synchronized void loginUser(String user) {
+    public void loginUser(String user) {
         if (!isUserLoggedIn) {
             isUserLoggedIn = true;
             this.user = user;
@@ -32,7 +32,7 @@ public class Application {
     }
 
     // Log out a user
-    public synchronized void logoutUser() {
+    public void logoutUser() {
         isUserLoggedIn = false;
         System.out.println(user + " is logged out!");
     }
