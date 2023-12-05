@@ -18,13 +18,13 @@ public class Queues {
     }
 
     // Get the current queue number
-    public int getCurrentQueueNumber() {
+    public synchronized int getCurrentQueueNumber() {
             return numInteger;
         }
 
 
     // Reset the queue number to a specific value
-    public void resetQueueNumber(int newQueueNumber) {
+    public synchronized void resetQueueNumber(int newQueueNumber) {
             numInteger = newQueueNumber;
             System.out.println("Queue number reset to: " + newQueueNumber);
         }
