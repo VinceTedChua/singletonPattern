@@ -18,3 +18,4 @@ Singleton is a creational pattern restricting instatiation of another class to p
 
 
 # Sample Java Code Solution
+![CHUA_SINGLETON_SAMPLE_OUTPUT](https://github.com/VinceTedChua/singletonPattern/assets/142372312/0b78d4f6-4d72-4c3c-b49a-deec422730a1)
