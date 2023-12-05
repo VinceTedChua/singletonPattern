@@ -11,10 +11,8 @@ This approach aims to maintain an organized queuing process for individuals visi
 Singleton is a creational pattern restricting instatiation of another class to promote cohesivity and organization. Allowing only global entry of the point of access within an interface.
 
 
-
 # UML Diagram
-
-
+![SS_UML_SINGLETON_PATTERN_CHUA](https://github.com/VinceTedChua/singletonPattern/assets/142372312/49f71525-5ebb-40d5-a239-1d640de1266b)
 
 
 # Sample Java Code Solution
